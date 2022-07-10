@@ -102,23 +102,130 @@ bottom: 80px;
 }
 
 .carwooyin{
-    display: flex;
+display: flex;
 position: relative;
 left: 24px;
 flex-wrap: wrap;
 background-color: lightgray;
 width: 60%;
 height:400px;
-padding: 2rem;
+padding: 30px;
 border-radius: 10px;
 box-shadow: 0 1rem 1rem 1rem rgba(255, 255, 255, 0.075);
+box-sizing: border-box;
 }
 
-
+.carwo-h4{
+    position: relative;
+    top: -8px;
+    text-align: center;
+}
 .carwo{
-    padding: 0.3rem;
+    position: relative;
+    padding: 1rem;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: white;
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+box-sizing: border-box;
+right: 20px;
+}
+.carwo2{
+    position: relative;
+    padding: 1rem;
+    left: -10px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+
+}
+.carwo3{
+    position: relative;
+    padding: 1rem;
+    left: -2px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+
+}
+.carwo4{
+    position: relative;
+    padding: 1rem;
+    left: 5px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+
+}
+.carwo5{
+    position: relative;
+    padding: 1rem;
+    left: 13px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+
+}
+.carwo6{
+    position: relative;
+    padding: 1rem;
+    left: 13px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+   left: -20px;
+
+}
+.carwo7{
+    position: relative;
+    padding: 1rem;
+    left: -10px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+
+}
+.carwo8{
+    position: relative;
+    padding: 1rem;
+    left: -2px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+
+}
+.carwo9{
+    position: relative;
+    padding: 1rem;
+    left: 5px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 20%;
+   height: 40%;
+   border-radius: 10px;
+
+}
+.carwo10{
+    position: relative;
+    padding: 1rem;
+    left: 13px;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
    width: 20%;
    height: 40%;
    border-radius: 10px;
