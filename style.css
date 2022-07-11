@@ -72,6 +72,12 @@ bottom: 80px;
     bottom: 10px;
 }
 
+.icon{
+    position: relative;
+    font-size: 3rem;
+    bottom: 20px;
+}
+
 
 .xog{
     position: relative;
