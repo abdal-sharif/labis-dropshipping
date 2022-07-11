@@ -154,7 +154,7 @@ right: 20px;
     padding: 1rem;
     left: -10px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0.39);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -248,4 +248,54 @@ right: 20px;
    height: 40%;
    border-radius: 10px;
 
+}
+
+
+/* items */
+
+.items{
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1rem;
+    bottom: 30px;
+    background-color: gray;
+    height: 80%;
+    border-radius: 10px;
+   flex-direction: flex;
+   justify-content: space-around;
+
+    box-shadow: 0 1rem 1rem 1rem rgba(211, 211, 211, 0.089);
+}
+
+.item{
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
+   background-color: rgba(255, 255, 255, 0.377);
+   width: 13%;
+   height: 40%;
+   border-radius: 10px;
+}
+
+.item-h3{
+    position: relative;
+    top: 10px;
+
+}
+
+.topic{
+    position: relative;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    bottom: 50px;
+}
+
+
+.topic span{
+    color: gray;
 }
