@@ -109,16 +109,18 @@ bottom: 80px;
 
 .carwooyin{
 display: flex;
+flex-direction: flex;
 position: relative;
 left: 24px;
 flex-wrap: wrap;
-background-color: lightgray;
+background-color: gray;
 width: 60%;
-height:400px;
-padding: 30px;
+height:390px;
+padding: 2rem;
 border-radius: 10px;
-box-shadow: 0 1rem 1rem 1rem rgba(255, 255, 255, 0.075);
+box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.075);
 box-sizing: border-box;
+justify-content: space-around;
 }
 
 .carwo-img{
@@ -126,7 +128,7 @@ box-sizing: border-box;
     bottom: 3px;
     border-radius: 8px;
     background-position: center;
-    box-shadow:  0 1rem 1rem 1rem rgba(255, 255, 255, 0.24) ;
+    /* box-shadow:  0 1rem 1rem 1rem rgba(255, 255, 255, 0.24) ; */
 
     
     
@@ -134,7 +136,8 @@ box-sizing: border-box;
 
 .carwo-h4{
     position: relative;
-    top: -5px;
+    font-size: 0.90rem;
+    top: -8px;
     right: 4px;
     text-align: center;
 }
@@ -142,7 +145,7 @@ box-sizing: border-box;
     position: relative;
     padding: 1rem;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -154,7 +157,7 @@ right: 20px;
     padding: 1rem;
     left: -10px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.39);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -165,7 +168,7 @@ right: 20px;
     padding: 1rem;
     left: -2px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -176,7 +179,7 @@ right: 20px;
     padding: 1rem;
     left: 5px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -187,7 +190,7 @@ right: 20px;
     padding: 1rem;
     left: 13px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -198,7 +201,7 @@ right: 20px;
     padding: 1rem;
     left: 13px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -210,7 +213,7 @@ right: 20px;
     padding: 1rem;
     left: -10px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -221,7 +224,7 @@ right: 20px;
     padding: 1rem;
     left: -2px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -232,7 +235,7 @@ right: 20px;
     padding: 1rem;
     left: 5px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
@@ -243,13 +246,24 @@ right: 20px;
     padding: 1rem;
     left: 13px;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 20%;
    height: 40%;
    border-radius: 10px;
 
 }
 
+.carwo:hover,
+.carwo2:hover,
+.carwo3:hover,
+.carwo4:hover,
+.carwo5:hover,
+.carwo6:hover,
+.carwo7:hover,
+.carwo8:hover,
+.carwo9:hover{
+    background-color: lightgray;
+}
 
 /* items */
 
@@ -261,7 +275,7 @@ right: 20px;
     text-align: center;
     padding: 1rem;
     bottom: 30px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.5);
     height: 80%;
     border-radius: 10px;
    flex-direction: flex;
@@ -271,15 +285,29 @@ right: 20px;
 }
 
 .item{
+    color: lightgray;
     position: relative;
     text-align: center;
     padding: 1rem;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
-   background-color: rgba(255, 255, 255, 0.377);
+   background-color: rgba(255, 255, 255, 0);
    width: 13%;
    height: 40%;
    border-radius: 10px;
 }
+
+.item:hover{
+    background-color: lightgray;
+    color: black;
+    box-shadow: none;
+}
+
+.item img:hover{
+    border-radius: 12px;
+    transition: 2px ease-in-out;
+
+}
+
 
 .item-h3{
     position: relative;
