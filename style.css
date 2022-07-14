@@ -126,7 +126,7 @@ justify-content: space-around;
 .carwo-img{
     position: relative;
     bottom: 3px;
-    border-radius: 8px;
+    border-radius: 6px;
     background-position: center;
     /* box-shadow:  0 1rem 1rem 1rem rgba(255, 255, 255, 0.24) ; */
 
@@ -136,8 +136,9 @@ justify-content: space-around;
 
 .carwo-h4{
     position: relative;
+    color: black;
     font-size: 0.90rem;
-    top: -8px;
+    top: -5px;
     right: 4px;
     text-align: center;
 }
