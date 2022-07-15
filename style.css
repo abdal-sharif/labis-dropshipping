@@ -52,8 +52,12 @@ body{
 
 .logo h3{
 position: relative;
-left: 50px;
+left: 60px;
 bottom: 80px;
+}
+
+.logo h3:hover{
+    color: lightgray;
 }
 
 .logo .img{
@@ -71,6 +75,16 @@ bottom: 80px;
     left: 500px;
     bottom: 10px;
 }
+
+.menu ul li a:hover{
+    color: lightgray;
+}
+
+.menu ul li i:hover{
+    color: #228B22
+}
+
+
 
 .icon{
     position: relative;
