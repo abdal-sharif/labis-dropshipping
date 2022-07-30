@@ -23,7 +23,7 @@ li{
 }
 
 body{
-    background-color: lightgray;
+    background-color:gray;
 }
 
 .all{
@@ -341,4 +341,80 @@ right: 20px;
 
 .topic span{
     color: gray;
+}
+
+
+.links{
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+}
+
+
+/* cart */
+.cart-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(3, 3, 31);
+}
+.cart{
+    padding: 25px;
+  border-radius: 10px;
+  background: lightgray;
+  box-shadow:  0 1rem 1rem rgba(0, 0, 255, 0.253);
+}
+
+.main{
+    height:350px;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo-cart{
+    position: relative;
+    bottom: 30px;
+    left: 40%;
+}
+
+.cart-input{
+    position: relative;
+    bottom: 68px;
+}
+
+label , select{
+    position: relative;
+    bottom: 60px;
+}
+
+button{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 30%;
+}
+
+.logo-login{
+    position: relative;
+    left: 40%;
+}
+.log-btn{
+    position: relative;
+    top: 40px;
+    left: 95px;
+}
+
+.login h6{
+position: relative;
+top: 20px;
+text-align: center;
+}
+
+.kor h6{
+    position: relative;
+    bottom: 70px;
+    right: 10px;
+    color: rgba(128, 128, 128, 0.164);
 }
