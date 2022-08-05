@@ -140,12 +140,19 @@ justify-content: space-around;
 .carwo-img{
     position: relative;
     bottom: 3px;
-    border-radius: 6px;
+    border-radius: 8px;
     background-position: center;
     /* box-shadow:  0 1rem 1rem 1rem rgba(255, 255, 255, 0.24) ; */
 
     
     
+}
+
+#isarag{
+    border-radius: 7px;
+}
+#wanag-img{
+    border-radius: 8px;
 }
 
 .carwo-h4{
@@ -295,8 +302,17 @@ right: 20px;
     border-radius: 10px;
    flex-direction: flex;
    justify-content: space-around;
-
     box-shadow: 0 1rem 1rem 1rem rgba(211, 211, 211, 0.089);
+    overflow-y: auto;
+}
+
+.items .item{
+  margin: 16px;
+
+}
+
+.items::-webkit-scrollbar{
+    display: none;
 }
 
 .item{
@@ -306,19 +322,92 @@ right: 20px;
     padding: 1rem;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
    background-color: rgba(255, 255, 255, 0);
-   width: 13%;
-   height: 40%;
+   width: 20%;
+   height: 70%;
    border-radius: 10px;
 }
 
+.item-img{
+    position: relative;
+    left: -15.5px;
+    top: -15px;
+    width: 17.7vw;
+    height: 28vh;
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px ;  
+}
+
+.item-img:hover{
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+
+}
+
+
+.item p{
+    position: relative;
+    right: 17px;
+}
+.item-span{
+    color: gray;
+}
+
+.item-order{
+    position: relative;
+    display: flex;
+    top: 5px;
+}
+
+
+
+.order-btn{
+    position: relative;
+    padding: 0.90rem ;
+    background-color: white;
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: none;
+
+    top: 11px;
+    left: 9px;
+
+}
+.order-btn a{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    bottom: 9px;
+    opacity: 0.9;
+}
+
+.order-btn:hover{
+    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.order-btn a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
 .item:hover{
-    background-color: lightgray;
-    color: black;
+    background-color: rgba(211, 211, 211, 0.068);
     box-shadow: none;
+    color: gray;
 }
 
 .item img:hover{
-    border-radius: 12px;
     transition: 2px ease-in-out;
 
 }
@@ -357,7 +446,7 @@ right: 20px;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(3, 3, 31);
+    background-color: gray;
 }
 .cart{
     padding: 25px;
@@ -375,7 +464,7 @@ right: 20px;
 
 .logo-cart{
     position: relative;
-    bottom: 30px;
+    bottom: 17px;
     left: 40%;
 }
 
@@ -402,7 +491,7 @@ button{
 }
 .log-btn{
     position: relative;
-    top: 40px;
+    top: 55px;
     left: 95px;
 }
 
