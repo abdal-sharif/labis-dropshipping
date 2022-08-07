@@ -96,6 +96,7 @@ bottom: 80px;
 .xog{
     position: relative;
     display: flex;
+  
     
 }
 
@@ -104,21 +105,48 @@ bottom: 80px;
     color: white;
     padding: 1rem;
     top: 50px;
+    border-top: 1px solid  gray;
 }
+
+.dalab::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 55%;
+    background: rgba(211, 211, 211, 0.185);
+    transition: transform 0.9s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    opacity: 0.2;
+}
+.dalab::after{
+    transform:
+     scaleY(0);
+}
+
+
+.dalab:hover::after{
+    transform: scaleX(1);
+}
+
 
 .kow{
     font-family: cursive;
-    color: lightblue;
+    color: rgba(255, 255, 255, 0.349);
 }
 
 .labo{
     font-family: cursive;
-    color: rgba(173, 216, 230, 0.486);
+    color: lightgray;
 }
 
 .sadax{
     font-family: cursive;
-    color: white;
+    color:gray;
 }
 
 .carwooyin{
@@ -332,7 +360,7 @@ right: 20px;
     left: -15.5px;
     top: -15px;
     width: 17.7vw;
-    height: 28vh;
+    height: 29vh;
     border-top-right-radius: 10px ;
     border-top-left-radius: 10px ;  
 }
