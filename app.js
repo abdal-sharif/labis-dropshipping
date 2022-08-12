@@ -1,14 +1,14 @@
 
-let carticon = document.querySelector("#cart-icon");
+let cartIcon = document.querySelector("#cart-icon");
 let cart = document.querySelector(".cart");
-let closecart = document.querySelector("#cart-close");
+let closeCart = document.querySelector("#cart-close");
 
-carticon.onclick = () => {
+cartIcon.onclick = () => {
     cart.classList.add("active");
 };
 
-closecart.onclick= () =>{
-    cart.classList.remove("active")
+closeCart.onclick= () =>{
+    cart.classList.remove("active");
 };
 
 if(document.readyState == "loading"){

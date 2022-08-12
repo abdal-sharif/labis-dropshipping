@@ -27,12 +27,12 @@ body{
 }
 
 .all{
-    position: relative;
+    position: fixed;
     background-color: rgb(3, 3, 31);
     left: 28px;
     top: 20px;
-    width: 96%;
-    height: 94%;
+    width: 94vw;
+    height: 94vh;
     border-radius:15px ;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.452);
     padding: 2rem;
@@ -154,20 +154,25 @@ bottom: 80px;
 }
 
 .carwooyin{
-display: flex;
-flex-direction: flex;
 position: relative;
 left: 24px;
 flex-wrap: wrap;
-background-color: gray;
-width: 60%;
-height:390px;
-padding: 2rem;
 border-radius: 10px;
-box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.075);
-box-sizing: border-box;
-justify-content: space-around;
+box-shadow: 0 1rem 1rem 1rem rgba(194, 188, 188, 0.075);
+justify-content: space-around; 
+background-color: lightgray;
+width: 60vw;
+height: 59vh;
+padding:  2rem;
+left: 10px;
+display: flex;
+grid-template-columns: repeat(auto-fit , minmax(220px , auto));
+gap: 1.5rem;
+overflow-y: auto;
 }
+
+
+
 
 .carwo-img{
     position: relative;
@@ -195,7 +200,7 @@ justify-content: space-around;
     right: 4px;
     text-align: center;
 }
-.carwo{
+/* .carwo{
     position: relative;
     padding: 1rem;
     box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.137);
@@ -317,7 +322,7 @@ right: 20px;
 .carwo8:hover,
 .carwo9:hover{
     background-color: lightgray;
-}
+} */
 
 /* items */
 
@@ -649,7 +654,7 @@ header .mobile-toggler{
 .cart{
     position:fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 360px;
     min-height: 100vh;
     padding: 20px;
@@ -660,7 +665,7 @@ header .mobile-toggler{
 
 }
 
-.cart-active{
+.cart.active{
     right: 0%;
 }
 
