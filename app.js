@@ -2,6 +2,8 @@
 let cartIcon = document.querySelector("#cart-icon");
 let cart = document.querySelector(".cart");
 let closeCart = document.querySelector("#cart-close");
+var mybtn = document.querySelector("btn-buy");
+
 // open cart bar
 cartIcon.onclick = () => {
     cart.classList.add("active");
@@ -73,7 +75,7 @@ function addCartClicked(event){
 function addProductToCart(price,title,productImg){
     var cartShopBox = document.createElement("div");
     cartShopBox.classList.add('cart-box')
-    var cartItems = document.getElementsByClassName("cart-content")[0];
+    var cartItems = document.getElementsByClassName("cart-content")[0]
     var cartItemName = cartItems.getElementsByClassName("cart-product-title");
     for (var i = 0 ; i < cartItemName.length; i++) {
     alert("gadasho wacan");
@@ -81,13 +83,11 @@ function addProductToCart(price,title,productImg){
     }
     
 }
-
-var cartBoxContent =
- `
-   <img src="${productImg}" alt=""  class="cart-img">
+var cartBoxContent = `
+   <img src="/img/4you.jpg" alt=""  class="cart-img">
    <div class="detail-box">
-   <div class="cart-product-title">${title}</div>
-   <div class="cart-price">${price}</div>
+   <div class="cart-product-title">earbuds</div>
+   <div class="cart-price">23.6$</div>
    <input type="number" value="1" class="cart-quantity">
 
     </div>
@@ -95,12 +95,10 @@ var cartBoxContent =
     <!-- cart remove -->
     <i class="fa-solid fa-trash cart-remove"></i>`;
 
-cartShopBox.innerHTML = cartBoxContent;
-cartItems.append(cartShopBox);
-cartShopBox.getElementsByClassName("cart-remove")[0]
-.addEventListener("click" , removeCartItem);
-cartShopBox.getElementsByClassName("cart-quantity")[0]
-.addEventListener("change" , quantityChanged);
+cartShopBox.innerHTML = cartBoxContent
+cartItems.append(cartShopBox)
+cartShopBox.getElementsByClassName("cart-remove")[0].addEventListener("click" , removeCartItem);
+cartShopBox.getElementsByClassName("cart-quantity")[0].addEventListener("change" , quantityChanged);
 
 
 
@@ -131,5 +129,8 @@ function updatetotal(){
 
 
 
-// add to cart as function
+// button 
 
+mybtn.onclick = () =>{
+    alert("dalab kaga wa la gudbiyey mahadsanid")
+};
